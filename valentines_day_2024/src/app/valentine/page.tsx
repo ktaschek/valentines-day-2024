@@ -1,10 +1,6 @@
-"use client";
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { redirect } from "next/navigation";
-import Router from "next/router";
 
 export default function Home() {
   const [yesSize, setYesSize] = useState(20);

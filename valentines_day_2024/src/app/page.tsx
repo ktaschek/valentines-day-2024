@@ -1,9 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-// Home page that says "Happy Valentine's Day" A spcial day for you
-// CLICK ME!!!
 export default function Home() {
   return (
     <main
