@@ -48,7 +48,7 @@ export default function Home() {
         Happy Valentine&apos;s Day
       </h1>
       <h1 className="justify-self-center col-start-2 col-end-5">
-        My Little Mochi!
+        My Little Mochi! <br /> To The ...
       </h1>
 
       <Parallax
@@ -338,8 +338,8 @@ export default function Home() {
               alt="mmRub"
             />
           </div>
-          <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">I Love You</h1>
+          <div className="h-[18rem] ">
+            <h1 className="text-2xl font-bold text-center">Most Beautiful</h1>
           </div>
         </div>
       </div>
@@ -359,7 +359,7 @@ export default function Home() {
             />
           </div>
           <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">I Love You</h1>
+            <h1 className="text-2xl font-bold">Most Gorgeous</h1>
           </div>
         </div>
       </div>
@@ -379,7 +379,7 @@ export default function Home() {
             />
           </div>
           <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">I Love You</h1>
+            <h1 className="text-2xl font-bold">The Cutest</h1>
           </div>
         </div>
       </div>
@@ -398,7 +398,9 @@ export default function Home() {
             />
           </div>
           <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">I Love You</h1>
+            <h1 className="text-2xl font-bold">
+              Prettiest Princess In the Whole World
+            </h1>
           </div>
         </div>
       </div>
