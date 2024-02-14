@@ -412,12 +412,10 @@ export default function Home() {
             <PaginationLink href="/">1</PaginationLink>
           </PaginationItem>
           <PaginationItem>
-            <PaginationLink href="/WillYouBeMyValentine">2</PaginationLink>
+            <PaginationLink href="/valentine">2</PaginationLink>
           </PaginationItem>
           <PaginationItem>
-            <PaginationLink href="/WillYouBeMyValentine/LoveYou">
-              3
-            </PaginationLink>
+            <PaginationLink href="/valentine/loveyou">3</PaginationLink>
           </PaginationItem>
         </PaginationContent>
       </Pagination>

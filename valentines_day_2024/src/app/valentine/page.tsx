@@ -75,7 +75,7 @@ export default function Home() {
           style={{ width: `${yesSize}rem`, height: "5rem" }}
           asChild
         >
-          <Link href="/WillYouBeMyValentine/LoveYou">Yes</Link>
+          <Link href="/valentine/loveyou">Yes</Link>
         </Button>
 
         <Button
