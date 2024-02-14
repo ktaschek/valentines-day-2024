@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -7,20 +7,29 @@ export default function Home() {
   const [yesSize, setYesSize] = useState(20);
   const [noSize, setNoSize] = useState(20);
   const [noState, setNoState] = useState(0);
-  const noButton = document.getElementById("noButton");
+  const phrases = useMemo(
+    () => [
+      "No",
+      "What the heck",
+      "Don't Click Me",
+      "Please Say Yes",
+      "Seriously?!",
+      "The other button is so much easier to press",
+      "You're still clicking me?",
+      "This is Cruel",
+      "If That's How you Feel",
+      "PLEASE PLEASE PLEASE",
+    ],
+    [],
+  );
 
-  const phrases = [
-    "No",
-    "What the heck",
-    "Don't Click Me",
-    "Please Say Yes",
-    "Seriously?!",
-    "The other button is so much easier to press",
-    "You're still clicking me?",
-    "This is Cruel",
-    "If That's How you Feel",
-    "PLEASE PLEASE PLEASE",
-  ];
+  useEffect(() => {
+    const noButton = document.getElementById("noButton");
+    if (noButton) {
+      const state = noState % phrases.length;
+      noButton.innerText = phrases[state];
+    }
+  }, [noState, phrases]);
 
   return (
     <main
@@ -45,8 +54,6 @@ export default function Home() {
       text-center
       text-white
       font-bold
-
-
       "
       >
         Will you be my Valentine?
@@ -76,14 +83,12 @@ export default function Home() {
           id="noButton"
           onClick={() => {
             setNoState(noState + 1);
-            const state = noState % phrases.length;
             if (yesSize <= 50) {
               setYesSize((size) => size * 1.1);
             }
             if (noSize <= 10) {
               setNoSize((size) => size * 0.8);
             }
-            if (noButton) noButton.innerText = phrases[state];
           }}
           style={{ width: `${noSize}rem`, height: "5rem" }}
         >
