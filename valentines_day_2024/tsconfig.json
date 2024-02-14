@@ -27,6 +27,6 @@
       "@/lib/*": ["lib/*"]
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/valentine/loveyou/isVisible.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/isVisible.tsx"],
   "exclude": ["node_modules"]
 }

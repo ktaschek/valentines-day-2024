@@ -9,7 +9,7 @@ import {
   PaginationItem,
   PaginationLink,
 } from "@/components/ui/pagination";
-import { useIsVisible } from "./isVisible";
+import { useIsVisible } from "../../../components/isVisible";
 import { useRef } from "react";
 
 export default function Home() {
