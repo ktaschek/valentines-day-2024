@@ -404,7 +404,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-[80%] px-[10%] col-span-3 col-start-2 row-start-9 row-span-2">
+      <div className="w-[80%] px-[10%] col-span-3 col-start-2 row-start-8 row-span-2">
         <h2 className="mb-[2rem]">Dear My Little Mochi,</h2>
         <h3 className="leading-relaxed">
           I hope you enjoy this virtual card I made for you! It will be up
