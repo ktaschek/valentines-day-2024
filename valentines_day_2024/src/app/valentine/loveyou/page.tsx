@@ -48,7 +48,7 @@ export default function Home() {
         Happy Valentine&apos;s Day
       </h1>
       <h1 className="justify-self-center col-start-2 col-end-5">
-        My Little Mochi! <br /> To The ...
+        My Little Mochi! The ...
       </h1>
 
       <Parallax
@@ -338,8 +338,8 @@ export default function Home() {
               alt="mmRub"
             />
           </div>
-          <div className="h-[18rem] ">
-            <h1 className="text-2xl font-bold text-center">Most Beautiful</h1>
+          <div className="h-[18rem] ml-[20rem] translate-y-[40%] ">
+            <h1 className="text-4xl font-bold">Most Beautiful</h1>
           </div>
         </div>
       </div>
@@ -358,8 +358,8 @@ export default function Home() {
               alt="mmRub"
             />
           </div>
-          <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">Most Gorgeous</h1>
+          <div className="h-[18rem] ml-[20rem] translate-y-[40%]">
+            <h1 className="text-4xl font-bold">Most Gorgeous</h1>
           </div>
         </div>
       </div>
@@ -378,8 +378,8 @@ export default function Home() {
               alt="mmRub"
             />
           </div>
-          <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">The Cutest</h1>
+          <div className="h-[18rem] ml-[24rem] translate-y-[40%] ">
+            <h1 className="text-4xl font-bold">Cutest</h1>
           </div>
         </div>
       </div>
@@ -387,7 +387,7 @@ export default function Home() {
         ref={ref4 as unknown as React.LegacyRef<HTMLDivElement>}
         className={`transition-opacity ease-in duration-1000 ${isVisible4 ? "opacity-100" : "opacity-0"} col-span-3 col-start-2 row-start-7 row-span-1 z-0`}
       >
-        <div className="hover:scale-110 hover:bg-red-300 hover:bg-opacity-30 transition-all rounded-lg flex items-center h-[18rem] z-0">
+        <div className="hover:scale-110 hover:bg-red-300 hover:bg-opacity-30 transition-all rounded-lg flex items-center h-[18rem] z-0 ">
           <div className="overflow-hidden rounded-lg ml-[0.5rem]">
             <Image
               className="rounded-[20px] object-cover"
@@ -397,12 +397,34 @@ export default function Home() {
               alt="mmRub"
             />
           </div>
-          <div className="h-[18rem]">
-            <h1 className="text-2xl font-bold">
+          <div className="h-[18rem]  ml-[8rem] translate-y-[40%] ">
+            <h1 className="text-4xl font-bold">
               Prettiest Princess In the Whole World
             </h1>
           </div>
         </div>
+      </div>
+      <div className="w-[80%] px-[10%] col-span-3 col-start-2 row-start-9 row-span-2">
+        <h2 className="mb-[2rem]">Dear My Little Mochi,</h2>
+        <h3 className="leading-relaxed">
+          I hope you enjoy this virtual card I made for you! It will be up
+          forever, whenever you want to look at it. And I will always add more
+          things for us. This is like our own little site now. <br /> <br />
+          I can&#39;t believe this is already our 3rd Valentine&#39;s Day
+          together! I cannot wait for the day we can celebrate them in person
+          together, when we can spend the whole day just with each other and I
+          can shower you with hugs, kisses, and little gifts of chocolate and
+          flowers. We&#39;ll go on a little picnic and make Brie and Cambozola
+          charcuterie boards. And spend the day laying together in the sun.
+          <br />
+          <br />
+          You make my life so special and I am so grateful to be able to call
+          you mine! AHAHAHAHA!
+          <br />
+          <br />
+          Love, <br />
+          Kyle
+        </h3>
       </div>
       <Progress
         value={progress}
